@@ -1,0 +1,19 @@
+{
+  "name": "express_basics",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon --experimental-json-modules --exec app.js",
+    "debug": "DEBUG=express:* nodemon --experimental-json-modules --exec app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
