@@ -4,7 +4,7 @@
   "main": "app.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon --experimental-json-modules --exec app.js",
+    "start": "node app.js",
     "debug": "DEBUG=express:* nodemon --experimental-json-modules --exec app.js"
   },
   "author": "",
